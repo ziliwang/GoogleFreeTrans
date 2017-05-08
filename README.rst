@@ -1,6 +1,8 @@
 ===============================================================
 GoogleFreeTrans: Free Google translate API for Python
 ===============================================================
+|GitHub license| |travis status| |Documentation Status| |PyPI version|
+|Coverage Status| |Code Climate|
 python 3.4+
 
 ----------
