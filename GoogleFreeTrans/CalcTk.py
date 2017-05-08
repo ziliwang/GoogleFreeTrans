@@ -1,4 +1,6 @@
-import execjs, gettkk
+import execjs
+from GoogleFreeTrans import gettkk
+
 
 class CalcTk():
     def __init__(self):
@@ -28,6 +30,6 @@ class CalcTk():
             return a.toString() + "." + (a ^ h)
         }
     """)
-    
+
     def get_tk(self, text):
         return self.ctx.call('tk', text, self.tkk)

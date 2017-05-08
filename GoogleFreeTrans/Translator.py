@@ -1,5 +1,5 @@
 import requests, execjs, json, sys
-from CalcTk import CalcTk
+from GoogleFreeTrans.CalcTk import CalcTk
 import time
 
 
@@ -94,14 +94,16 @@ class translator():
         self.updata_time = updata_time
         self.__updata_tk()
 
-    def translate(self, text):
+    def translate(self, text, multi=False):
         if time.time() > self.__next_up_time:
             self.__updata_tk()
         data = {'q': text}
         self.params['tk'] = self.__TK.get_tk(text)
         res = self.__get_res(data)
         ret_list = json.loads(res.text)
-        return ret_list[0]
+        if multi:
+            return ret_list
+        return ret_list[0][0][0]
 
     def __updata_tk(self):
         self.__TK = CalcTk()
