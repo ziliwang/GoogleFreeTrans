@@ -2,7 +2,7 @@
 GoogleFreeTrans: Free Google translate API for Python
 ===============================================================
 
-|GitHub license| |travis status|
+|GitHub license| |travis status| |version|
 
 python 3.4+
 
@@ -112,3 +112,5 @@ support language
    :target: http://opensource.org/licenses/MIT
 .. |travis status| image:: https://travis-ci.org/ziliwang/GoogleFreeTrans.svg?branch=master
    :target: https://travis-ci.org/ziliwang/GoogleFreeTrans
+.. |version| image:: https://img.shields.io/badge/version-0.1.1-green.svg
+   :target: https://github.com/ziliwang/GoogleFreeTrans
