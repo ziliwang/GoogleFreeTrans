@@ -106,3 +106,6 @@ support language
   'yiddish': 'yi',
   'chinese_simplified': 'zh-CN',
   'chinese_traditional': 'zh-TW'
+
+.. |GitHub license| image:: https://img.shields.io/github/license/mashape/apistatus.svg
+   :target: http://opensource.org/licenses/MIT
