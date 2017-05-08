@@ -6,7 +6,7 @@ python 3.4+
 ----------
 Quickstart
 ----------
-You can install it from PyPI_:
+You can install it from PyPI:
 
 .. sourcecode:: bash
 
@@ -27,28 +27,29 @@ single sentence translation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: python
+
     >>> from GoogleFreeTrans import Translator
     >>> translator = Translator.translator(scr='en', dest='fr')
     >>> translator.translate('china')
     'Chine'
-..
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 multiple sentence translation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: python
+
    >>> from GoogleFreeTrans import Translator
    >>> translator = Translator.translator(scr='en', dest='fr')
    >>> translator.translate('china. french')
    [[['Chine. ', 'china.', None, None, 1],  ['français.', 'french.', None, None, 1]], None, 'en']
-..
 
 ----------------
 support language
 ----------------
 
 .. code::
+
   'afrikaans': 'af',
   'arabic': 'ar',
   'belarusian': 'be',
@@ -103,4 +104,3 @@ support language
   'yiddish': 'yi',
   'chinese_simplified': 'zh-CN',
   'chinese_traditional': 'zh-TW'
-..
