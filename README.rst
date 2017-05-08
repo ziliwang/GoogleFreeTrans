@@ -112,5 +112,5 @@ support language
    :target: http://opensource.org/licenses/MIT
 .. |travis status| image:: https://travis-ci.org/ziliwang/GoogleFreeTrans.svg?branch=master
    :target: https://travis-ci.org/ziliwang/GoogleFreeTrans
-.. |version| image:: https://img.shields.io/badge/version-0.1.1-green.svg
-   :target: https://github.com/ziliwang/GoogleFreeTrans
+.. |version| image:: https://img.shields.io/github/release/ziliwang/GoogleFreeTrans.svg
+   :target: https://github.com/ziliwang/GoogleFreeTrans/release
