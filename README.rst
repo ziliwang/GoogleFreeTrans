@@ -113,4 +113,4 @@ support language
 .. |travis status| image:: https://travis-ci.org/ziliwang/GoogleFreeTrans.svg?branch=master
    :target: https://travis-ci.org/ziliwang/GoogleFreeTrans
 .. |version| image:: https://img.shields.io/github/release/ziliwang/GoogleFreeTrans.svg
-   :target: https://github.com/ziliwang/GoogleFreeTrans/release
+   :target: https://github.com/ziliwang/GoogleFreeTrans/releases
