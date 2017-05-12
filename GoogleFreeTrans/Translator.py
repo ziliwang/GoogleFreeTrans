@@ -72,7 +72,8 @@ class translator():
                         'vietnamese': 'vi',
                         'yiddish': 'yi',
                         'chinese_simplified': 'zh-CN',
-                        'chinese_traditional': 'zh-TW'}
+                        'chinese_traditional': 'zh-TW',
+                        'auto': 'auto'}
 
     def __init__(self, src='en', dest='fr', updata_time=600):
         if src not in self.support_lauguage and src not in self.support_lauguage.values():
